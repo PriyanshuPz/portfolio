@@ -1,0 +1,128 @@
+{
+    "meta": {
+        "title": "Priyanshu Verma",
+        "description": "Technologist and software engineer. Priyanshu operates somewhere in the intersection of AI systems, developer tools, and productivity.",
+        "keywords": "technologist, software engineer, AI systems, developer tools, productivity software, AI infrastructure, developer platforms, product engineering",
+        "icon": "/priyanshu.png",
+        "author": "Priyanshu Verma",
+        "baseURL": "https://priyanshu.p8labs.in",
+        "ogImage": "/og.png",
+        "twitter": {
+            "creator": "@PriyanshuPz"
+        }
+    },
+    "layout": {
+        "navbar": {
+            "left": [
+                {
+                    "href": "/",
+                    "label": "Priyanshu Verma",
+                    "mobileLabel": "Pv"
+                }
+            ],
+            "right": [
+                {
+                    "href": "/about",
+                    "label": "About"
+                },
+                {
+                    "href": "/blog",
+                    "label": "Blog"
+                }
+            ],
+            "showThemeToggle": true
+        },
+        "footer": {
+            "copyrightText": "© 2022-2026 Priyanshu Verma",
+            "watermark": true
+        }
+    },
+    "landing": {
+        "avatar": {
+            "url": "/priyanshu.png",
+            "alt": "Priyanshu Verma",
+            "width": 142,
+            "height": 142
+        },
+        "hero": {
+            "boldText": "This is Priyanshu,",
+            "boldurl": "/about",
+            "describe": {
+                "firstPart": "I create",
+                "secondPart": "technology",
+                "thirdPart": "that helps people to be productive."
+            }
+        },
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/priyanshu-verma-pz/",
+            "github": "https://www.github.com/PriyanshuPz",
+            "instagram": "https://www.instagram.com/PriyanshuPz",
+            "x": "https://www.x.com/PriyanshuPz"
+        },
+        "building": {
+            "enable": true,
+            "label": "I AM BUILDING",
+            "project": {
+                "name": "P8labs",
+                "logo": "https://p8labs.in/logo.png",
+                "url": "https://p8labs.in",
+                "description": "A Firm that builds software for businesses, ships open products, and collaborates with independent developers."
+            },
+            "more": {
+                "label": "Learn More →",
+                "url": "https://p8labs.in/about"
+            }
+        },
+        "skills": {
+            "enable": true,
+            "label": "SKILLS",
+            "items": [
+                "TypeScript",
+                "Rust",
+                "SvelteKit",
+                "AI Systems",
+                "Developer Tools",
+                "Distributed Systems",
+                "Linux",
+                "Docker",
+                "Product Engineering",
+                "AI Infrastructure",
+                "Performance",
+                "Observability",
+                "PostgreSQL",
+                "Cloudflare",
+                "Automation",
+                "System Design"
+            ]
+        },
+        "experience": {
+            "enable": true,
+            "label": "EXPERIENCE",
+            "items": [
+                {
+                    "company": "P8LABS",
+                    "url": "https://p8labs.in",
+                    "role": "Founder & Engineer",
+                    "period": "2024 — Present",
+                    "description": "Building user-focused products and AI-driven systems focused on productivity and software tooling."
+                },
+                {
+                    "company": "PELTON.AI",
+                    "url": "https://pelton.ai",
+                    "role": "Software Engineer Intern",
+                    "period": "2024 — 2025",
+                    "description": "Developed a unified AI API gateway making developers write once for all AI providers."
+                }
+            ]
+        },
+        "recentPosts": {
+            "enable": true,
+            "label": "RECENT POSTS",
+            "more": {
+                "label": "Read more →",
+                "url": "/blog"
+            },
+            "maxPosts": 3
+        }
+    }
+}
