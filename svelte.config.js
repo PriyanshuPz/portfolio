@@ -1,4 +1,5 @@
-import adapter from "@sveltejs/adapter-static";
+// import adapter from "@sveltejs/adapter-static";
+import adapter from '@sveltejs/adapter-cloudflare';
 import { mdsvex } from "mdsvex";
 
 import remarkGfm from "remark-gfm";
@@ -58,11 +59,7 @@ const config = {
 
   kit: {
     adapter: adapter({
-      pages: "build",
-      assets: "build",
-      fallback: undefined,
-      precompress: true,
-      strict: true,
+    	fallback: 'plaintext',
     }),
 
     prerender: {
